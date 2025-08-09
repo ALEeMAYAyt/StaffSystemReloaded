@@ -1,0 +1,15 @@
+org\scienziato1pazzo\it\staffsystem\invsee\InvSee.class
+org\scienziato1pazzo\it\staffsystem\vanish\Freeze.class
+org\scienziato1pazzo\it\staffsystem\staffmode\StaffModCommand.class
+org\scienziato1pazzo\it\staffsystem\staffmode\StaffMode.class
+org\scienziato1pazzo\it\staffsystem\staffmode\listener\Picchiatore.class
+org\scienziato1pazzo\it\staffsystem\commandg\gms.class
+org\scienziato1pazzo\it\staffsystem\commandg\gmsp.class
+org\scienziato1pazzo\it\staffsystem\fly\fly.class
+org\scienziato1pazzo\it\staffsystem\commandg\gmc.class
+org\scienziato1pazzo\it\staffsystem\staffmode\listener\OnLeft.class
+org\scienziato1pazzo\it\staffsystem\StaffSystem.class
+org\scienziato1pazzo\it\staffsystem\staffmode\listener\TerminatorListener.class
+org\scienziato1pazzo\it\staffsystem\config\config.class
+org\scienziato1pazzo\it\staffsystem\vanish\Vanish.class
+org\scienziato1pazzo\it\staffsystem\staffmode\listener\StaffModeListener.class

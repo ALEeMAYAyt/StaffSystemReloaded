@@ -1,0 +1,35 @@
+name: StaffSystemReloaded
+version: '1.6'
+main: org.scienziato1pazzo.it.staffsystem.StaffSystem
+authors: [scienziato1pazzo, ALEeMAYAyt]
+commands:
+  gmc:
+    permission: staff.gamemode
+    permission-message: "§cNon hai il permesso per usare questo comando!"
+  gms:
+    permission: staff.gamemode
+    permission-message: "§cNon hai il permesso per usare questo comando!"
+  gmsp:
+    permission: staff.gamemode
+    permission-message: "§cNon hai il permesso per usare questo comando!"
+  fly:
+    permission: staff.fly
+    permission-message: "§cNon hai il permesso per usare questo comando!"
+  staff:
+    aliases:
+      - staffmode
+    permission: staff.staff
+    permission-message: "§cNon hai il permesso per usare questo comando!"
+  vanish:
+    aliases:
+      - v
+    permission: staff.vanish
+    permission-message: "§cNon hai il permesso per usare questo comando!"
+  invsee:
+    permission: staff.invsee
+    aliases:
+      - inv
+    permission-message: "§cNon hai il permesso per usare questo comando!"
+  freeze:
+    permission: staff.freeze
+    permission-message: "§cNon hai il permesso per usare questo comando!"
