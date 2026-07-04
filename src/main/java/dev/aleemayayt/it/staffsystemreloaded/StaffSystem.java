@@ -11,7 +11,6 @@ import dev.aleemayayt.it.staffsystemreloaded.commandg.gmsp;
 import dev.aleemayayt.it.staffsystemreloaded.config.config;
 import dev.aleemayayt.it.staffsystemreloaded.fly.fly;
 import dev.aleemayayt.it.staffsystemreloaded.invsee.InvSee;
-import dev.aleemayayt.it.staffsystemreloaded.invsee.InvSeeListener;
 import dev.aleemayayt.it.staffsystemreloaded.staffmode.listener.OnLeft;
 import dev.aleemayayt.it.staffsystemreloaded.staffmode.listener.Picchiatore;
 import dev.aleemayayt.it.staffsystemreloaded.staffmode.listener.StaffModeListener;
@@ -45,7 +44,6 @@ public final class StaffSystem extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new Freeze(), this);
         getServer().getPluginManager().registerEvents(new Picchiatore(), this);
         getServer().getPluginManager().registerEvents(new OnLeft(), this);
-        getServer().getPluginManager().registerEvents( new InvSeeListener (), this);
         TerminatorListener.register( this);
         //getServer().getPluginManager().registerEvents(new OnJoin(), this);
         //new vanish.Reload().runTaskTimer(this, 0L, 60L);

@@ -14,7 +14,9 @@ import java.util.*;
 public class StaffMode {
 
     public static HashMap<UUID, ItemStack[]> savedInventories = new HashMap<>();
-    public static List<UUID> staffer = new ArrayList<>();
+    public static Set<UUID> staffer = new HashSet<>();
+//    public static List<UUID> staffer = new ArrayList<>();
+
 
     public static void setStaffMode(Player player) {
         UUID playerId = player.getUniqueId();
@@ -148,16 +150,16 @@ public class StaffMode {
         return itemStack;
     }
 
-    /**
-     * Cleans up staff mode data for a disconnected player.
-     * This should be called when a player quits the server while in staff mode.
-     * Unlike setStaffMode, this does NOT restore the inventory since the player is offline.
-     *
-     * @param player The player who is disconnecting
-     */
     public static void cleanupPlayer(Player player) {
         UUID playerId = player.getUniqueId();
-        staffer.remove(playerId);
+
+        if (!savedInventories.containsKey(playerId)) {
+            return;
+        }
+
+        player.getInventory().setContents(savedInventories.get(playerId));
+
         savedInventories.remove(playerId);
+        staffer.remove(playerId);
     }
 }

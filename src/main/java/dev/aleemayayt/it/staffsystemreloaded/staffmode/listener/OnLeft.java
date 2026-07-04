@@ -7,10 +7,12 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import dev.aleemayayt.it.staffsystemreloaded.staffmode.StaffMode;
 
 public class OnLeft implements Listener {
+
     @EventHandler
-    public static void OnLeftAnPlayer(PlayerQuitEvent event) {
+    public void onPlayerQuit(PlayerQuitEvent event) {
         Player player = event.getPlayer();
-        if (StaffMode.staffer.contains(player)) {
+
+        if (StaffMode.staffer.contains(player.getUniqueId())) {
             StaffMode.cleanupPlayer(player);
         }
     }
