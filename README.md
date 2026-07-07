@@ -5,7 +5,7 @@
   <a href="https://www.spigotmc.org/resources/staffsystemreloaded-like-coralmc.127823/">
     <img src="https://img.shields.io/badge/Spigot-Download-orange?style=for-the-badge&logo=spigotmc&logoColor=white">
   </a>
-  <img src="https://img.shields.io/badge/version-1.6-2ea44f?style=for-the-badge">
+  <img src="https://img.shields.io/badge/version-1.7-2ea44f?style=for-the-badge">
   <img src="https://img.shields.io/badge/java-8%2B-f89820?style=for-the-badge&logo=openjdk&logoColor=white">
   <img src="https://img.shields.io/badge/platform-Spigot%20%7C%20Paper%20%7C%20Bungee-5865f2?style=for-the-badge">
   <img src="https://img.shields.io/badge/status-Active-2ecc71?style=for-the-badge">
